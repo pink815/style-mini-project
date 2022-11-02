@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* TO EVERYTHING IN THIS PAGE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 200px;
+    margin: 16px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+header {
+    background-color: brown;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+li {
+    margin: 16px;
+}
+
+/* BEST PLACE TO GO FOR A STROLL */
+
+#stroll {
+    background-color: orange;
+}
+
+.stroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+}
+
+/* PUMPKINS FOR COLLECTORS */
+
+#pumpkins {
+    background-color: red;
+    padding: 16px;
+}
+
+.pumpkins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+}
+
+
+/* BENCHES FOR AGES */
+
+#benches {
+    background-color: orange;
+}
+
+.benches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 16px;
+}
+
+/* CONTACT US */
+
+#contact__us {
+    background-color: red; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 16px 16px;
+
+}
+
+span {
+    display: flex;
+    flex-direction: co;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.copyright {
+    padding: 16px;
+}
