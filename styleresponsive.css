@@ -1,0 +1,144 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    
+    
+}
+
+img {
+    max-width: 600px;
+    max-height: 300px;
+}
+
+/* HEADER */
+
+
+header {
+    background-color: black;
+
+}
+
+.navigation {
+    font: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    margin: 0;
+}
+
+.navigation__link {
+    color: white;
+}
+
+/* LANDING PAGE */ 
+
+.welcome {
+    background-color:rgb(243, 199, 175);
+    padding: 24px;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px; 
+    display: flex;
+    justify-content: center;
+}
+
+.welcome__description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 36px;
+    padding: 24px 0;
+}
+
+.about__us {
+    background-color:rgb(191, 225, 195);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__us__description {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 24px;
+    padding: 24px 0;
+}
+
+.about__us__description__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+}
+.services {
+    background-color:rgb(175, 227, 243);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services__description {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 24px;
+    padding: 24px 0;
+    align-items: center;
+}
+
+.contact__us {
+    background-color:rgb(246, 215, 239);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
